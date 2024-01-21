@@ -1,0 +1,153 @@
+/* #C6AB80 - coffee beige color */
+body {
+margin: 0;
+padding: 0;
+}
+
+/* MENU IMAGE*/
+div.image-nav {
+background: url('assets/menu_bg.jpg');
+min-height: 55vh;
+padding-top: 25px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+
+/* MENU BAR */
+div.image-nav nav {
+width: 100%;
+background-color: #C6AB80;
+overflow: auto;
+white-space: nowrap;
+}
+
+/* MENU OPTIONS */
+div.image-nav a {
+display: inline-block;
+font-family: "Raleway", sans-serif;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+color: white;
+width: 20%;
+padding: 10px;
+cursor: pointer;
+}
+
+/* MENU HOVERING ON OPTIONS */
+div.image-nav a:hover {
+background-color: #fff;
+color: #C6AB80;
+}
+
+/* which page is active atm */
+nav:active {
+background-color: #fff;
+}
+
+/* MENU LOGO-NAME */
+div.image-nav header {
+text-align: center;
+font-size: 52px;
+font-family: 'Raleway', sans-serif;
+font-weight: 450;
+color: #fff;
+margin: 100px;
+padding: 50px 0 50px 0;
+border: #C6AB80 solid 2px;
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* LATEST PRODUCTS */
+div.cards-container {
+background-color: #C6AB80;
+margin: 0%;
+padding: 0% 0% 1% 0%;
+}
+
+/* LATEST PRODUCTS  LOGO-NAME*/
+div.cards-container header {
+text-align: center;
+text-decoration: none;
+font-size: 37px;
+font-family: Courier New;
+color: #fff;
+margin: 0%;
+padding: 20px 0 20px 0;
+}
+
+/* LATEST PRODUCTS CARDS */
+div.cards {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+grid-gap: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+padding: 2vh;
+margin: 2vh;
+background-color: #FCFBF4;
+}
+
+/* LATEST PRODUCTS CARD */
+article.card {
+display: grid;
+grid-template-rows: max-content 35px 1fr;
+background-color: #DDDEED;
+color: #333;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+padding: 1vh;
+margin: 0 auto;
+}
+
+/* LATEST PRODUCTS CARD IMAGE */
+article.card img{
+display: block;
+max-width: 100%;
+height: auto;
+object-fit: cover;
+border-radius: 5px;
+}
+
+/* LATEST PRODUCTS CARD ALL PARAGRAPHS*/
+article.card p {
+font-family: Courier New;
+}
+
+/* LATEST PRODUCTS CARD PRODUCT-NAME */
+.product-name {
+font-size: 20px;
+font-weight: bold;
+}
+
+/* LATEST PRODUCTS CARD ONE-LINER */
+.summary {
+font-size: 15px;
+}
+
+button {
+border: 0;
+border-radius: 5px;
+padding: 10px 10px 7px 10px;
+margin: 5px;
+background-color: #C6AB80;
+color: #333;
+cursor: pointer;
+font-family: Courier New;
+}
+
+button:hover {
+background-color: #333;
+color: #FCFBF4;
+}
+
+footer {
+background-color: #DDDEED;
+color: #333;
+font-family: Courier New;
+text-align: center;
+padding: 5px;
+}
+
