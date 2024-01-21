@@ -1,5 +1,5 @@
-#####Glow up guru
+#### Glow up guru
 
 	- About skincare products website
 
-developed by divK34
+	- developed by divK34
