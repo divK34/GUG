@@ -76,15 +76,16 @@ border: #C6AB80 solid 2px;
 background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* LATEST PRODUCTS */
-div.cards-container {
+/* SUBSCRIBE CONTAINER */
+div.subscribe-container {
 background-color: #C6AB80;
 margin: 0%;
 padding: 0% 0% 1% 0%;
 }
 
-/* LATEST PRODUCTS  LOGO-NAME*/
-div.cards-container header {
+
+/* SUBSCRIBE CONTAINER LOGO-NAME*/
+div.subscribe-container header {
 text-align: center;
 text-decoration: none;
 font-size: 37px;
@@ -93,8 +94,8 @@ margin: 0%;
 padding: 20px 0 20px 0;
 }
 
-/* LATEST PRODUCTS CARDS */
-div.cards {
+/* SUBSCRIBE CONTAINER CARDS */
+div.subscribe-card {
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 grid-gap: 20px;
@@ -105,59 +106,30 @@ margin: 2vh;
 background-color: #FCFBF4;
 }
 
-/* LATEST PRODUCTS CARD */
-article.card {
-display: grid;
-grid-template-rows: max-content 35px 1fr;
-background-color: #DDDEED;
-color: #333;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-border-radius: 5px;
-padding: 1vh;
-margin: 0 auto;
-font-family: Courier New;
-}
 
-/* LATEST PRODUCTS CARD IMAGE */
-article.card img{
-display: block;
-max-width: 100%;
-height: auto;
-object-fit: cover;
-border-radius: 5px;
-}
 
-/* LATEST PRODUCTS CARD PRODUCT-NAME */
-p.product-name {
-font-size: 20px;
-font-weight: bold;
-}
 
-/* LATEST PRODUCTS CARD ONE-LINER */
-p.summary {
-font-size: 15px;
-}
 
-button {
-border: 0;
-border-radius: 5px;
-padding: 10px 10px 7px 10px;
-margin: 5px;
-background-color: #C6AB80;
-color: #333;
-cursor: pointer;
-}
 
-button:hover {
-background-color: #333;
-color: #FCFBF4;
-}
 
-footer {
-background-color: #DDDEED;
-color: #333;
-font-family: Courier New;
-text-align: center;
-padding: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
